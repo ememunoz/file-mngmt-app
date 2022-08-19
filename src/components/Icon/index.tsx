@@ -1,5 +1,4 @@
 import React from 'react'
-import { StyleSheet, Text, View } from 'react-native'
 
 import svgs from './svgs'
 
@@ -11,7 +10,5 @@ const Icon = ({ name, ...rest }: Props) => {
   const component = svgs[name](rest)
   return component
 }
-
-const styles = StyleSheet.create({})
 
 export default Icon

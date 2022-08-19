@@ -1,6 +1,5 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 import React from 'react'
-import { View } from 'react-native'
 
 import HomeScreen from '../screens/HomeScreen'
 import ImagesScreen from '../screens/ImagesScreen'

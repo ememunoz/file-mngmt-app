@@ -4,8 +4,6 @@ import { FlatList, StyleSheet, Text, View } from 'react-native'
 import Icon from '../components/Icon'
 import { useFileContext } from '../context/FileContext'
 
-type Props = {}
-
 const SheetsScreen = () => {
   const { sheetInfoArray } = useFileContext()
 

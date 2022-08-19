@@ -2,8 +2,6 @@ import { FlatList, Image, StyleSheet, Text, View } from 'react-native'
 
 import { useFileContext } from '../context/FileContext'
 
-type Props = {}
-
 const ImagesScreen = () => {
   const { imageInfoArray } = useFileContext()
 

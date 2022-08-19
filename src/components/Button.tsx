@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Pressable, StyleSheet, Text, View } from 'react-native'
+import { Pressable, StyleSheet, Text } from 'react-native'
 import type { GestureResponderEvent, StyleProp, ViewStyle } from 'react-native'
 
 type Props = {
@@ -8,7 +8,7 @@ type Props = {
   style?: ViewStyle | ViewStyle[]
 }
 
-const Button: React.FC<Props> = ({ children, onPress, style: customStyle }) => {
+const Button = ({ children, onPress, style: customStyle }: Props) => {
   const [isPress, setIsPress] = useState(false)
 
   const handlePressIn = () => setIsPress(true)
