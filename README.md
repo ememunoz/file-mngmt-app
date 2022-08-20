@@ -25,6 +25,14 @@ Scan QR code from a device with Expo Go.
 
 Enjoy!
 
+# Test
+
+For executing tests run
+
+```
+npm run test
+```
+
 # Screenshots
 
 ## Home Screen
