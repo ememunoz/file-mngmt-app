@@ -1,0 +1,422 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeScreen /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "padding": 16,
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "alignSelf": "center",
+        "fontSize": 32,
+        "fontWeight": "100",
+        "marginBottom": 48,
+        "textAlign": "center",
+      }
+    }
+  >
+    Welcome to File Management App! 📂
+  </Text>
+  <View
+    style={
+      Object {
+        "flex": 0.8,
+        "marginBottom": 32,
+      }
+    }
+  >
+    <RNSVGSvgView
+      align="xMidYMid"
+      bbHeight="100%"
+      bbWidth="100%"
+      focusable={false}
+      meetOrSlice={0}
+      minX={0}
+      minY={0}
+      style={
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderWidth": 0,
+          },
+          Object {
+            "flex": 0,
+            "height": "100%",
+            "width": "100%",
+          },
+        ]
+      }
+      vbHeight={601.8}
+      vbWidth={731.4}
+    >
+      <RNSVGGroup>
+        <RNSVGPath
+          d="M389 140H136a23 23 0 0 1-23-23V23a23 23 0 0 1 23-23h253a23 23 0 0 1 23 23v94a23 23 0 0 1-23 23Z"
+          fill={4294967295}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="M389 140H136a23 23 0 0 1-23-23V23a23 23 0 0 1 23-23h253a23 23 0 0 1 23 23v94a23 23 0 0 1-23 23ZM136 2a21 21 0 0 0-21 21v94a21 21 0 0 0 21 21h253a21 21 0 0 0 21-21V23a21 21 0 0 0-21-21Z"
+          fill={4282334550}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="M485 153H350a11 11 0 0 1-2-1 11 11 0 0 1-9-10V96a11 11 0 0 1 11-12h135a11 11 0 0 1 5 2 11 11 0 0 1 2 1 11 11 0 0 1 4 9v46a11 11 0 0 1-11 11Z"
+          fill={4294967295}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="m476 152 19-44v24a120 120 0 0 1-16 20ZM491 88l-38 64h-2q20-32 38-65a10 10 0 0 1 2 1ZM402 111a408 408 0 0 1-26 41h-14l27-33 10-8Z"
+          fill={4293322470}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="m384 109-4 5-8 10-6 7a13 13 0 0 1-1-2 14 14 0 0 1 18-21 13 13 0 0 1 1 1Z"
+          fill={4285293567}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="m461 119-26-10-13-5-13-4a20 20 0 0 0-11 0 27 27 0 0 0-10 6l-3 3-4 5-8 10-6 7-17 21a10 10 0 0 1-2 0l18-23 2-2 9-11 7-8v-1c5-5 12-10 19-10l13 3 13 5 26 10 7 2c1 0 1 2-1 2Z"
+          fill={4293322470}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="M485 153H350a11 11 0 0 1-2-1 11 11 0 0 1-9-10V96a11 11 0 0 1 11-12h135a11 11 0 0 1 5 2 11 11 0 0 1 2 1 11 11 0 0 1 4 9v46a11 11 0 0 1-11 11ZM350 86a9 9 0 0 0-9 10v46a9 9 0 0 0 7 9 9 9 0 0 0 2 0h135a9 9 0 0 0 9-9V96a9 9 0 0 0-4-8 9 9 0 0 0-1 0 9 9 0 0 0-4-2Z"
+          fill={4282334550}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="M217 196H23a23 23 0 0 1-23-23v-34a23 23 0 0 1 23-23h194a23 23 0 0 1 23 23v34a23 23 0 0 1-23 23Z"
+          fill={4294967295}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="M217 196H23a23 23 0 0 1-23-23v-34a23 23 0 0 1 23-23h194a23 23 0 0 1 23 23v34a23 23 0 0 1-23 23ZM23 118a21 21 0 0 0-21 21v34a21 21 0 0 0 21 21h194a21 21 0 0 0 21-21v-34a21 21 0 0 0-21-21Z"
+          fill={4282334550}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="M80 177H49a6 6 0 0 1-7-6v-29a6 6 0 0 1 7-6h31a6 6 0 0 1 6 6v29a6 6 0 0 1-6 6Z"
+          fill={4285293567}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="M136 177h-32a6 6 0 0 1-6-6v-29a6 6 0 0 1 6-6h32a6 6 0 0 1 6 6v29a6 6 0 0 1-6 6ZM191 177h-31a6 6 0 0 1-6-6v-29a6 6 0 0 1 6-6h31a6 6 0 0 1 7 6v29a6 6 0 0 1-7 6Z"
+          fill={4293322470}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="M275 55h-40a4 4 0 0 1 0-8h40a4 4 0 0 1 0 8ZM361 77H234a4 4 0 0 1 0-8h127a4 4 0 0 1 0 8Z"
+          fill={4291611852}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGCircle
+          cx="187.2"
+          cy="62.5"
+          fill={4285293567}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+          r="26.8"
+        />
+        <RNSVGPath
+          d="M479 313H226a23 23 0 0 1-23-23v-94a23 23 0 0 1 23-23h253a23 23 0 0 1 23 23v94a23 23 0 0 1-23 23Z"
+          fill={4294967295}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="M479 313H226a23 23 0 0 1-23-23v-94a23 23 0 0 1 23-23h253a23 23 0 0 1 23 23v94a23 23 0 0 1-23 23ZM226 175a21 21 0 0 0-21 21v94a21 21 0 0 0 21 21h253a21 21 0 0 0 21-21v-94a21 21 0 0 0-21-21Z"
+          fill={4282334550}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="M325 211h-43a4 4 0 1 1 0-8h43a4 4 0 0 1 0 8Z"
+          fill={4285293567}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="M420 227H282a4 4 0 1 1 0-8h138a4 4 0 0 1 0 8ZM420 246H282a4 4 0 1 1 0-8h138a4 4 0 0 1 0 8ZM420 265H282a4 4 0 1 1 0-8h138a4 4 0 0 1 0 8ZM420 284H282a4 4 0 1 1 0-8h138a4 4 0 0 1 0 8Z"
+          fill={4293322470}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="M599 585h-14l-7-54h21v54z"
+          fill={4294948534}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="M599 599h-43a17 17 0 0 1 17-17l8-6 14 6h4Z"
+          fill={4281282113}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="m696 559-12 8-36-40 17-11 31 43z"
+          fill={4294948534}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="m705 571-35 25-1-1a17 17 0 0 1 4-23l3-9 16-4 3-2ZM654 318l1 3c8 16 10 34 7 52a3 3 0 0 0 0 2c2 2-1 11-3 17l-1 9s2 8-2 8 2 8-1 10l-10 58 39 63-14 21-58-73v-67l-9 54-1 84-25-3-10-82 9-112 14-49Z"
+          fill={4281282113}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="M493 299a8 8 0 0 1 11-1 7 7 0 0 1 1 1l25-9 9 11-36 9a8 8 0 0 1-9-1 7 7 0 0 1-1-10Z"
+          fill={4294948534}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="m636 171-21 1-10 18-14 4-12 30 7 93s1 6-1 5-2 7-2 7l-10 38 92-8-5-41s7 0 2-5-7-3-3-9l6-10 2-29 4-41a40 40 0 0 0-15-35Z"
+          fill={4285293567}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="M686 375a8 8 0 0 0-2-10 7 7 0 0 0-1-1l2-27-13-6v37a8 8 0 0 0 3 9 7 7 0 0 0 10-1l1-1Z"
+          fill={4294948534}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="M666 201s30 72 29 99l-10 51-14-1 1-46c5-5-16-34-23-55ZM592 193s-37 69-52 89l-11 8v14l26 1s38-32 36-47 1-65 1-65Z"
+          fill={4285293567}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGCircle
+          cx="625.1"
+          cy="140"
+          fill={4294948534}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+          r="26.6"
+        />
+        <RNSVGPath
+          d="m635 164-16-2c-2 0-5 0-6-3v-5a46 46 0 0 0 3-4 8 8 0 0 0-8-11l-7 2c-3 0-10-11-9-14l5-7-1-7c0-3 8 4 6 2-3-7 29-15 34-7 2 3 6 3 9 5 2 1 7 5 8 8a20 20 0 0 1 2 8c0 13-2 26-13 34"
+          fill={4281282113}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="M511 594a49 49 0 0 1-39-15c-7-7-11-16-16-24l-4-8a16 16 0 0 1 2-17 15 15 0 0 1 16-5h1l6 22 3-18 1-1a78 78 0 0 1 17 11 81 81 0 0 1 30 60v1Z"
+          fill={4294111986}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+        <RNSVGPath
+          d="m730 601-279 1a1 1 0 0 1 0-3h279a1 1 0 1 1 0 2Z"
+          fill={4291480266}
+          propList={
+            Array [
+              "fill",
+            ]
+          }
+        />
+      </RNSVGGroup>
+    </RNSVGSvgView>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 0.2,
+      }
+    }
+  />
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "hsl(243, 100%, 69%)",
+          "borderRadius": 4,
+          "elevation": 3,
+          "justifyContent": "center",
+          "paddingHorizontal": 32,
+          "paddingVertical": 12,
+        },
+        Object {
+          "marginBottom": 8,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "letterSpacing": 0.25,
+          "lineHeight": 21,
+        }
+      }
+    >
+      Upload Image
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "hsl(243, 100%, 69%)",
+          "borderRadius": 4,
+          "elevation": 3,
+          "justifyContent": "center",
+          "paddingHorizontal": 32,
+          "paddingVertical": 12,
+        },
+        Object {
+          "marginBottom": 8,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 16,
+          "fontWeight": "bold",
+          "letterSpacing": 0.25,
+          "lineHeight": 21,
+        }
+      }
+    >
+      Upload CSV
+    </Text>
+  </View>
+</View>
+`;

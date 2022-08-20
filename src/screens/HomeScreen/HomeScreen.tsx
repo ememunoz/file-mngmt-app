@@ -5,12 +5,11 @@ import type { ImageInfo } from 'expo-image-picker'
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 
-import Button from '../components/Button'
-import Icon from '../components/Icon'
-import { useFileContext } from '../context/FileContext'
+import { Button, Icon } from '../../components/'
+import { useFileContext } from '../../context/'
 
 const HomeScreen = () => {
-  const { addImage, addSheet, imageInfoArray } = useFileContext()
+  const { addImage, addSheet } = useFileContext()
 
   const pickImage = async () => {
     let result = await ImagePicker.launchImageLibraryAsync({
@@ -38,7 +37,7 @@ const HomeScreen = () => {
 
   const handleImageUpload = async () => {
     const img = await pickImage()
-    if (img) addImage(img)
+    if (img) await addImage(img)
   }
 
   const handleSheetUpload = async () => {
@@ -56,7 +55,7 @@ const HomeScreen = () => {
         return
       }
       const total = data.reduce((prev, curr) => Number(prev) + Number(curr), 0)
-      addSheet({ name, src: uri, total })
+      await addSheet({ name, src: uri, total })
     }
   }
 

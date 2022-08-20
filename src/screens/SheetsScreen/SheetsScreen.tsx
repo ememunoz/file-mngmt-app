@@ -1,8 +1,8 @@
 import React from 'react'
 import { FlatList, StyleSheet, Text, View } from 'react-native'
 
-import Icon from '../components/Icon'
-import { useFileContext } from '../context/FileContext'
+import { Icon } from '../../components'
+import { useFileContext } from '../../context'
 
 const SheetsScreen = () => {
   const { sheetInfoArray } = useFileContext()

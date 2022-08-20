@@ -1,8 +1,8 @@
 import { NavigationContainer } from '@react-navigation/native'
 import { SafeAreaProvider } from 'react-native-safe-area-context'
 
-import BottomTabNavigator from './src/components/BottomTabNavigator'
-import { FileContextProvider } from './src/context/FileContext'
+import { FileContextProvider } from './src/context'
+import BottomTabNavigator from './src/navigation/BottomTabNavigator/BottomTabNavigator'
 
 export default function App() {
   return (

@@ -73,16 +73,16 @@ export const FileContextProvider = ({ children }: { children: ReactNode }) => {
     await AsyncStorage.setItem('@file-mngmt-state', JSON.stringify(data))
   }
 
-  const addImage = (src: string) => {
+  const addImage = async (src: string) => {
     const newArray = [...imageInfoArray, { src }]
     setImageInfoArray(newArray)
-    updateStorage()
+    await updateStorage()
   }
 
-  const addSheet = ({ src, name, total }: SheetInfoType) => {
+  const addSheet = async ({ src, name, total }: SheetInfoType) => {
     const newArray = [...sheetInfoArray, { src, name, total }]
     setSheetInfoArray(newArray)
-    updateStorage()
+    await updateStorage()
   }
 
   return (
